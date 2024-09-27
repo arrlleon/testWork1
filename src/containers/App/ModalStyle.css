@@ -1,0 +1,295 @@
+body{
+  color: #767575;
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+  }
+
+
+  .blue-button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #3d8ee5;
+    border: none;
+    border-radius: 5px;
+    height: 37px;
+    width: 50px;
+  }
+  .blue-button:hover{
+    cursor: pointer;
+  }
+
+  .selector{
+    width: 260px;
+  }
+
+  
+  .left-btn {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px; 
+  }
+  
+  
+  .left-btn-week {
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px; 
+    
+  }
+
+  .right-btn-week {
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px; 
+    
+  }
+  
+  .daysOfWeek-btn{
+    height: 40px; 
+  }
+
+  .daysOfWeek-btn:hover{
+    cursor: pointer;
+  }
+  
+  .daysOfWeek-container{
+    width: 100%;
+    display: flex;
+  }
+  
+  .grey-background-hours{
+    border-left: 1px solid #bababa;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    flex-direction: column;
+    gap: 1px;
+    padding: 2px 0;
+    height: 34px;
+    text-align: center;
+    padding-bottom: 1px;
+  }
+  
+  .grey-background-hours p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .numbers-span{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+  }
+  
+  .daysOfWeek-container{
+    width: 100%;
+  }
+  .row {
+    display: flex;
+    margin-bottom: 15px;
+    height: 40px;
+    justify-content: space-between;
+  }
+  
+  .first-row .column, .third-row .column {
+    flex-direction: column;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+  }
+  
+  .second-row .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .second-row button {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .second-row button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .to {
+    padding: 10px 8px;
+    background-color: #ccc;
+    color: white;
+  }
+
+  .to2 {
+    padding: 10px 8px;
+    background-color: #ccc;
+    color: white;
+    margin-left: 6px;
+  }
+
+  
+  input[type="date"] {
+    margin: 5px;
+    height: 24px;
+    font-size: 16px;
+    border: none;
+
+  }
+  
+  .daily-hours {
+    display: flex;
+    align-items: center;
+  }
+  
+  .daily-hours span.label {
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .time-range {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+  }
+  
+  .time-range select {
+    margin-right: 10px;
+  }
+  
+  .time-range span.label {
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .endDate{
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+  .endTime{
+    width: 80px;
+    margin-left: 10px;
+  }
+  .right-btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  
+  .secondRow-container{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 37px;
+  }
+  .thirdRow-container{
+    width: 240px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+  }
+
+  .fourthRow{
+    display: flex;
+    gap: 10px;
+  }
+  .timeSelector div{
+    border: none;
+  }
+  .timeSelector div:active{
+    border: none;
+    outline: none;
+  }
+
+  .school-mamyr{
+    width: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 5px;
+  }
+
+  .school-mamyr:hover{
+    cursor: default;
+  }
+
+  .header {
+    padding: 5px 0 20px;
+    color: grey;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin: 5px 0px 20px;
+    width: 100%;
+  }
+
+  .footer{
+    padding: 30px 0 0;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    text-align: right;
+  }
+
+  .reserve{
+    width: 200px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height: 37px;
+    font-size: 17px;
+  }
+
+  .cancel{
+    width: 111px;
+    height: 37px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+
+  .cancel:hover {
+    cursor: pointer;
+  }
+
+  .reserve:hover{
+    cursor: pointer;
+  }
+
+  .teacher-selector{
+    width: 530px
+  }
