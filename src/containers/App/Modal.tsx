@@ -27,7 +27,7 @@ const Modal: React.FC = () => {
   const [endDate, setEndDate] = useState<string>('');
   const [endTime, setEndTime] = useState<string>('');
   const [selectedTeacher, setSelectedTeacher] = useState<any>('Нурсултан Назарбаев')
-  const [selectedClass, setSelectedClass] = useState<number>(0)
+  const [selectedClass, setSelectedClass] = useState<number>(1)
 
   useEffect(() => {
     setEndDate(calculateEndDate());
