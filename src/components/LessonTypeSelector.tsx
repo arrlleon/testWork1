@@ -21,3 +21,7 @@ const LessonTypeSelector: React.FC<LessonTypeSelectorProps> = ({ lessonType, onL
 };
 
 export default LessonTypeSelector;
+
+//выбор также через селектор реакта, для изменения просто меняешь обьект в массиве
+
+// с остальными тремя точно также 

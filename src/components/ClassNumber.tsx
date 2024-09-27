@@ -25,3 +25,5 @@ const ClassSelector: React.FC<ClassSelectorProps> = ({ selectedСlass, onClassCh
 );
 
 export default ClassSelector;
+
+// В переменную classOptions вводите объекты со значение которое будет передаваться и с выводом что увидит пользователь, так можно менять под себя нужные значение

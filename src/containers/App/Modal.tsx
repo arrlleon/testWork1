@@ -83,6 +83,7 @@ const Modal: React.FC = () => {
     console.log("Выбранная аудитория: " + data.class); 
   }
 
+
   const calculateEndDate = () => {
     if (selectedDays.length === 0 || dailyHours <= 0) return '';
 

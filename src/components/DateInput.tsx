@@ -15,3 +15,6 @@ const DateInput: React.FC<DateInputProps> = ({ startDate, endDate, onStartDateCh
 );
 
 export default DateInput;
+
+
+//инпут даты где выбираете день начала учебы и от него начнется отсчет окончания учебы 

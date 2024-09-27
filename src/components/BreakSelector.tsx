@@ -25,3 +25,6 @@ const BreakSelector: React.FC<BreakSelectorProps> = ({ selectedBreak, onBreakCha
 );
 
 export default BreakSelector;
+
+
+// В переменную breakOptions вводите объекты со значение которое будет передаваться и с выводом что увидит пользователь, так можно менять под себя нужные значение

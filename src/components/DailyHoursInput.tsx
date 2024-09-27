@@ -24,3 +24,6 @@ const DailyHoursInput: React.FC<DailyHoursInputProps> = ({ dailyHours, onDailyHo
 };
 
 export default DailyHoursInput;
+
+
+//Просто компонент с функцией с проверкой чтоб нельзя было сделать ниже 0 часов 
