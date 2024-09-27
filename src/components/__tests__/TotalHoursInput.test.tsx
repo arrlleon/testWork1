@@ -44,3 +44,5 @@ describe('TotalHoursInput', () => {
     expect(mockOnTotalHoursChange).not.toHaveBeenCalled();
   });
 });
+
+

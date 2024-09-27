@@ -18,3 +18,5 @@ test('Рендер компонента DailyHoursInput и изменение к
 
   expect(onDailyHoursChange).toHaveBeenCalledWith(3);
 });
+
+
